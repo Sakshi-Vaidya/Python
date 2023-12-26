@@ -6,7 +6,7 @@ class Point:
     def __str__(self):
         return "({0},{1})".format(self.x, self.y)
 
-    def __power__(self, other):
+    def __pow__(self, other):
         x = self.x ** other.x
         y = self.y ** other.y
         return Point(x, y)
