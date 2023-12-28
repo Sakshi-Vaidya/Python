@@ -10,5 +10,5 @@ class Person:
 p1 = Person("Alice", 20)
 p2 = Person("Bob", 30)
 
-print(p1 <= p2)  # prints True
-print(p2 <= p1)  # prints False
+print(p1 <= p2)  
+print(p2 <= p1)  
