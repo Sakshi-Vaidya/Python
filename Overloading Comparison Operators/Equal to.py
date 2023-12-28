@@ -3,7 +3,7 @@ class Person:
         self.name = name
         self.age = age
 
-    # overload < operator
+    # overload == operator
     def __eq__(self, other):
         return self.age == other.age
 
